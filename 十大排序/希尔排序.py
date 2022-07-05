@@ -1,5 +1,5 @@
+import math
 def shellSort(arr):
-    import math
     gap=1
     while(gap < len(arr)/3):
         gap = gap*3+1
